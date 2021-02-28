@@ -38,9 +38,9 @@ public class ElasticSearchConsumer {
 
 
         //replace with your own credentials
-        String hostname = "";
-        String username = "";
-        String password = "'
+        String hostname = "kafka-course-9084732620.us-east-1.bonsaisearch.net";
+        String username = "2ygnz37nfw";
+        String password = "rszg8u0nfn";
 
         final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
         credentialsProvider.setCredentials(AuthScope.ANY,
